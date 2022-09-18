@@ -1,0 +1,4 @@
+language: java
+jdk:
+  -oraclejdk16
+script: mvn clean install -DskipTests
